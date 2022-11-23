@@ -1,6 +1,7 @@
 spring:
   application:
     name: gateway-service
+    allow-bean-definition-overriding: true
   cloud:
     config:
       enabled: true
